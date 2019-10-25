@@ -1,0 +1,38 @@
+def dictionary():
+    d = {'DIKW:': 'Data 데이터, Informatioon 정보, Knowledge 지식, Wisdom 지혜',
+    'DB': 'Data Base 데이터베이스',
+    'DBMS': '''Data Base Management System\n- DB를 관리하여 응용프로그램들이 데이터베이스를 공유하며 
+    사용할 수 있는 환경을 제공하는 소프트웨어\n- 관계형, 객체지향형이 있다''',
+    'OLTP': 'On-Line Transaction Processing DB의 데이터를 수시로 갱신 - 갱신위주 프로세싱',
+    'OLAP': 'On-Line Analytical Processing OLTP에서 처리된 데이터를 분석 - 조회위주 프로세싱',
+    'WBS': 'Work Breakdown Structure',
+    'CRISP-DM':'',
+    'KMS':'Knowledge Management System 지식관리시스템 \n- 기업경영을 지식이라는 관점에서 재조명하는 방식',
+    'RFID':'Radio Frequency ID 주파수를 이용해 ID를 식별하는 system',
+    'SOW': 'Statement of Work 프로젝트 범위 정의서',
+    'RDB': '',
+    'ERP':'Enterprise Resource Plannning \n경영자원을 하나의 통합시스템으로 재구축',
+    'CRM':'Customer Relationship Management 고객관계관리',
+    'SCM':'Supply Chain Management 공급망 관리',
+    'RDBMS': 'Relational Data Base Management System',
+    'ERD': '',
+    'ETL':'',
+    'API':'',
+    'BI': 'Business Intelligence \n기업의 보유 데이터 정리, 분석->의사결정에 활용',
+    'RTE': 'Real Time Enterprise \n 회사 전부문 ',
+    'IDE': '시스템 통합 개발도구',
+    'EDW':'',
+    'GIS':'',
+    'PoC': 'Proof of Concept',
+    'ROI': 'Return on Investment 비지니스 성과',
+    'ISP': 'Information Strategy Planning',
+    '3V': 'Investment 투자비용 요소 (Volume 크기, Variety 다양성, Velocity 속도)',
+    '4V': 'Return 비지니스 효과 (3V + Value 가치)',
+    'KPI': '목표가치',
+    'CMMI': 'Capability Maturity Model Integration 모델 (조직 성숙도 평가도구)',
+    'EA': 'Enterprise Architecture',
+    'DSCoE': 'Data Science Centre of Excellence 분석 전담 조직',
+
+    }
+
+    return print(d.get(input().strip(),'사전에 없습니다'))
