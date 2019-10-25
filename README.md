@@ -1,4 +1,2 @@
 # study_group
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/happymil/study_group/master)
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/happymil/study_group/master
+https://mybinder.org/v2/gh/happymil/ADsP/commit?filepath=ADsP%20%EC%9A%A9%EC%96%B4%EC%A1%B0%ED%9A%8C.ipynb
