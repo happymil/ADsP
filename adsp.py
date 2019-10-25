@@ -22,7 +22,7 @@ def dictionary():
     'RTE': 'Real Time Enterprise \n 회사 전부문 ',
     'IDE': '시스템 통합 개발도구',
     'EDW':'',
-    'GIS':'',
+    'GIS':'Geographic Information System',
     'PoC': 'Proof of Concept',
     'ROI': 'Return on Investment 비지니스 성과',
     'ISP': 'Information Strategy Planning',
